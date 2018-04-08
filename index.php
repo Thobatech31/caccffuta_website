@@ -191,7 +191,7 @@
                 <ul class="slides">
                     <li class="imagebg" data-overlay="4">
                         <div class="background-image-holder background--top">
-                            <img alt="background" src="general/img/construction2.jpg" />
+                            <img alt="background" src="general/img/caccfimage.jpg" />
                         </div>
                         <div class="container pos-vertical-center">
                             <div class="row">
@@ -205,7 +205,7 @@
                     </li>
                     <li class="imagebg" data-overlay="4">
                         <div class="background-image-holder">
-                            <img alt="background" src="general/img/construction2.jpg" />
+                            <img alt="background" src="general/img/construction22.jpg" />
                         </div>
                         <div class="container pos-vertical-center">
                             <div class="row">

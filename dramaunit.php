@@ -10,7 +10,7 @@
                         <div class="col-sm-12 col-md-12 col-xs-12 text-center">
                             <h2>DRAMA UNIT</h2>
 
-                            <img src="general/img/welfare.jpg" class="
+                            <img src="general/img/dramaimage.jpg" class="
                             image">
                                 <h3>THE TRIUMPHANT DRAMA FAMILY CACCF FUTA VISION</h3>
                              

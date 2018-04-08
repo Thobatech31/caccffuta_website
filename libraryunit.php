@@ -10,7 +10,7 @@
                         <div class="col-sm-12 col-md-12 col-xs-12 text-center">
                             <h2>LIBRARY UNIT</h2>
 
-                              <img src="general/img/library.jpg" class="
+                              <img src="general/img/libraryimage.jpg" class="
                             image">
                                 <h3>DESCRIPTION OF THE UNIT</h3>
                               <p>Library unit is an integral part of C.A.C Campus fellowship that contributes her quota by keeping both written and recorded documents of the fellowship such as: video tapes, audio cassettes, Christian novels, Bible teachings, e.t.c.</p>

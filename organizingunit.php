@@ -10,7 +10,7 @@
                         <div class="col-sm-12 col-md-12 col-xs-12 text-center">
                             <h2>ORGANIZING UNIT</h2>
 
-                              <img src="general/img/organizing.jpg" class="
+                              <img src="general/img/organizingimage.jpg" class="
                             image">
                                 <h3>DESCRIPTION OF THE UNIT</h3>
                               <p>Organizing unit is a unit in the fellowship under the supervision of the Unit Affairs Committee (UAC). Unit members are prayerfully selected by the leading of the Holy Spirit and commissioned to work in the unit during workers recruitment exercises overseen by the Unit Affairs Committee.</p>

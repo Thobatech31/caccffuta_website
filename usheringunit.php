@@ -10,7 +10,7 @@
                         <div class="col-sm-12 col-md-12 col-xs-12 text-center">
                             <h2>USHERING UNIT</h2>
 
-                            <img src="general/img/construction2.jpg" class="
+                            <img src="general/img/usheringimage.jpg" class="
                             image">
                                 <h3>DESCRIPTION OF THE UNIT</h3>
                                 <P><b>The concept of an Usher is not new. In the Old Testaments, there were positions addressed asDoor Keepers or Gate Keepers and their roles were very similar (2 Kings 22:4; Chronicles 9:17-27; Psalms 84:10).</b></P>

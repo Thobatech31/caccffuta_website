@@ -10,7 +10,7 @@
                         <div class="col-sm-12 col-md-12 col-xs-12 text-center">
                             <h2>CHOIR UNIT</h2>
 
-                            <img src="general/img/choiroriginal.jpg" class="
+                            <img src="general/img/choirimage.jpg" class="
                             image">
                                 <h3>DESCRIPTION OF THE UNIT</h3>
                                 <P><b>Choir unit is an embodiment of vessels ministering in music, below is a more detailed description of the units functions</b></P>

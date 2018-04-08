@@ -10,7 +10,7 @@
                         <div class="col-sm-12 col-md-12 col-xs-12 text-center">
                             <h2>PUBLICITY UNIT</h2>
 
-                              <img src="general/img/construction2.jpg" class="
+                              <img src="general/img/publicityimage.jpg" class="
                             image">
                               <p>Being more of a non-verbal unit, Publicity Unit of the fellowship is a unit that is outstanding in multi-various works and can be regarded as a ministerial unit entirely as there is Evangelism in Publicity. Glory to Jesus for numerous and wonderful ideas he has been blessing us with because without him it will be hard to tell the public what is needed at the right time.</p>
 

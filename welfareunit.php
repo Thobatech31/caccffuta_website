@@ -10,7 +10,7 @@
                         <div class="col-sm-12 col-md-12 col-xs-12 text-center">
                             <h2>WELFARE UNIT</h2>
 
-                            <img src="general/img/welfare.jpg" class="
+                            <img src="general/img/welfareimage.jpg" class="
                             image">
                                 <h3>DESCRIPTION OF THE UNIT</h3>
                              
