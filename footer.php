@@ -1,40 +1,31 @@
-             <footer class="footer-6 unpad--bottom  bg--dark" style="margin-top: -70px;">
-                <div class="container">
+  <footer class="footer-6 unpad--bottom  bg--dark" style="margin-top: -70px;">
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col-sm-6 col-md-3">
+                        <div class="col-sm-6 col-md-7">
                             <center>
                             <h6 class="type--uppercase">About Us</h6>
-                            <p>
-                                caccffutacaccffutacaccf
-                            </p>
                             </center>
+                            <p>
+                                The Christ Apostolic Church Campus Fellowship was established in the year 1985 by 
+                                undergraduates that had vision of bringing together CAC students on campus. 
+                                Though the fellowship started out as CAC Students Association (CACSA), 
+                                the fellowship currently bears the name-CHRIST APOSTOLIC CHURCH CAMPUS FELLOWSHIP. 
+                                It was so named, by the initiative of the staff advisers then, to avoid unnecessary 
+                                differences among students who wish to join a students CAC fellowship.
+                            </p>
+                            
                         </div>
 
-                        <div class="col-sm-6 col-md-3">
-                            <center>
-                            <h6 class="type--uppercase">Recent Updates</h6>
-                                <li>Home lesson teacher</li>
-                                <li>Home tutor</li>
-                                <li>Teacher in lagos</li>
-                                <li>Tutor in lagos</li>
-                        
-                             </center>
-                        </div>
+                    
                         <div class="col-sm-6 col-md-3">
                             <center>
                             <h6 class="type--uppercase">Social Media Pages</h6>
+                                <p><a href="https://www.facebook.com/caccffuta">Facebook Page</a></p>
                             <div class="instafeed instafeed--gapless" data-user-name="mediumrarethemes" data-amount="6" data-grid="3"></div>
                             <licenter>
                         </div>
-                        <div class="col-sm-6 col-md-3">
-                            <h6 class="type--uppercase">Newsletter</h6>
-                            <form action="//mrare.us8.list-manage.com/subscribe/post?u=77142ece814d3cff52058a51f&amp;id=f300c9cce8" data-success="Thanks for signing up.  Please check your inbox for a confirmation email." data-error="Please provide your email address.">
-                                <input class="validate-required validate-email" type="text" name="EMAIL" placeholder="Email Address" />
-                                <button type="submit" class="btn btn--primary type--uppercase">Subscribe</button>
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                    <input type="text" name="b_77142ece814d3cff52058a51f_f300c9cce8" tabindex="-1" value="">
-                                </div>
-                            </form>
+                        <div class="col-sm-6 col-md-2">
+                           <center><img alt="Image" src="general/img/fellowimage2.jpg" class="border--round"/ style="width: auto; height: 150px;"></center> 
                         </div>
                     </div>
                     <!--end of row-->
@@ -50,22 +41,22 @@
                             <div class="col-sm-6 text-right text-center-xs">
                                 <ul class="social-list list-inline">
                                     <li>
-                                        <a href="webpage.html">
+                                        <a href="https://www.">
                                             <i class="socicon socicon-google icon icon--xs"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="webpage.html">
+                                        <a href="https://www.">
                                             <i class="socicon socicon-twitter icon icon--xs"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="webpage.html">
+                                        <a href="https://www.facebook.com/caccffuta">
                                             <i class="socicon socicon-facebook icon icon--xs"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="webpage.html">
+                                        <a href="https://www.">
                                             <i class="socicon socicon-instagram icon icon--xs"></i>
                                         </a>
                                     </li>
@@ -91,6 +82,7 @@
         <script src="general/js/isotope.min.js"></script>
         <script src="general/js/ytplayer.min.js"></script>
         <script src="general/js/lightbox.min.js"></script>
+        <script src="general/cutomize.min.js"></script> <!--The new added link-->
         <script src="general/js/granim.min.js"></script>
         <script src="general/js/jquery.steps.min.js"></script>
         <script src="general/js/countdown.min.js"></script>

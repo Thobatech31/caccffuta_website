@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
     <?php
+    ob_start();
         require("header.php");
     ?>
         <div class="main-container">

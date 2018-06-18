@@ -18,16 +18,6 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
-
-    <style type="text/css">
-        .header{
-            font-weight: bold;
-        }
-
-        .containerheader{
-            font-weight: bold;
-        }
-    </style>
     <body class=" ">
         <a id="start"></a>
 
@@ -75,10 +65,14 @@
                                         <a href="aboutpage.php"><span>About Us</span></a>
                                     </li>
 
+                                    
 
                                     <li class="dropdown">
-                                        <a href="upload.php"><span>Inspire Me</span></a>
-                                       
+                                        <span class="dropdown__trigger">Blog</span>
+                                    </li>
+
+                                    <li class="dropdown">
+                                        <span class="dropdown__trigger">Inspire Me</span>
                                     </li>
 
                                      <li class="dropdown">
@@ -193,36 +187,75 @@
         </div>
         
         <div class="main-container">
-            <section class="text-center height-70 imagebg" data-overlay="0">
-                <div class="background-image-holder">
-                    <img alt="background" src="general/img/newbanner.jpg" />
-                </div>
-                <div class="container pos-vertical-center">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="typed-headline" style="margin-top: 60px;">
-                                <!--THE SECTION FOR THE TRANSITION(ANIMATED TEXT)-->
-                               <span class="h2 inline-block"><b>Weekly Services -</b></span>
-                                <span class="h2 inline-block typed-text typed-text--cursor color--secondary" data-typed-strings="WEDENSDAY : Prayer Meeting, FRIDAY: Bible Study, SUNDAY:Glorious Service"></span>
-                            </div>
-                            <h2 class="containerheader">
-                               <!--Additional text container-->
-                            </h2>
-                            
+            <section class="cover height-70 imagebg text-center slider slider--ken-burns" data-arrows="true" data-paging="true" data-timing="4000">
+                <ul class="slides">
+                    <li class="imagebg" data-overlay="4">
+                        <div class="background-image-holder background--top">
+                            <img alt="background" src="general/img/caccfimage.jpg" />
                         </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
+                        <div class="container pos-vertical-center">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    
+                                </div>
+                            </div>
+                            <!--end of row-->
+                        </div>
+                        <!--end of container-->
+                    </li>
+                    <li class="imagebg" data-overlay="4">
+                        <div class="background-image-holder">
+                            <img alt="background" src="general/img/construction22.jpg" />
+                        </div>
+                        <div class="container pos-vertical-center">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                   
+                                </div>
+                            </div>
+                            <!--end of row-->
+                        </div>
+                        <!--end of container-->
+                    </li>
+
+                    <li class="imagebg" data-overlay="4">
+                        <div class="background-image-holder">
+                            <img alt="background" src="general/img/construction2.jpg" />
+                        </div>
+                        <div class="container pos-vertical-center">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                   
+                                </div>
+                            </div>
+                            <!--end of row-->
+                        </div>
+                        <!--end of container-->
+                    </li>
+
+                    <li class="imagebg" data-overlay="4">
+                        <div class="background-image-holder">
+                            <img alt="background" src="general/img/construction2.jpg" />
+                        </div>
+                        <div class="container pos-vertical-center">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                   
+                                </div>
+                            </div>
+                            <!--end of row-->
+                        </div>
+                        <!--end of container-->
+                    </li>
+                </ul>
             </section>
-            
             <br/>
             <section class="bar bar-1 bar--sm">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="bar__module">
-                                <center><h3 class="containerheader">Inspire Me / Upcoming Events</h3></center>
+                                <center><h3>Inspire Me / Upcoming Events</h3></center>
                             </div>
                         </div>
                     </div>
@@ -287,33 +320,6 @@
                                             </div>
                                     </li>
 
-                                    <li class="col-md-3 col-sm-11 col-xs-11">
-                                        <img alt="Image" src="general/img/alumni.jpg" />
-                                            <div class="row">
-                                                <center>
-                                                        <div class="col-md-1 col-xs-2 col-sm-2">
-                                                        </div>
-                                                        <div class="col-md-3 col-xs-2 col-sm-2">
-                                                            <div style="background-color: gray;">
-                                                               <h2>04</h2>
-                                                            </div>
-                                                            <div style="background-color: gray;">
-                                                               <h2>05</h2>
-                                                            </div>
-                                                            
-                                                            
-                                                        </div>
-                                                       <div class="col-md-7 col-xs-8 col-sm-8">
-                                                            <h5>ALUMNI REUNION</h5>
-                                                            <p>FRIDAY, 04 MAY <br/> TO SATURDAY, 05 MAY <br/> Alumni Reunion</p>
-                                                            
-                                                        </div>
-                                                        <div class="col-md-1 col-xs-2 col-sm-2">
-                                                        </div>
-                                                </center>
-                                            </div>
-                                    </li>
-
                                       <li class="col-md-3 col-sm-11 col-xs-11">
                                         <img alt="Image" src="general/img/outreach.jpg" />
                                             <div class="row">
@@ -340,32 +346,21 @@
                                                 </center>
                                             </div>
                                     </li>
-                                    
-                                    
+                                    <li class="col-md-3 col-sm-11 col-xs-11">
+                                        <img alt="Image" src="general/img/construction2.jpg" />
+                                    </li>
 
-                                     <li class="col-md-3 col-sm-11 col-xs-11">
-                                        <img alt="Image" src="general/img/itsendforth.jpg" />
-                                            <div class="row">
-                                                <center>
-                                                        <div class="col-md-1 col-xs-2 col-sm-2">
-                                                        </div>
-                                                        <div class="col-md-3 col-xs-2 col-sm-2">
-                                                            <div style="background-color: gray;">
-                                                               <h2>20</h2>
-                                                            </div>
-                                                            <img src="general/img/fellownew1.jpg">
-                                                            
-                                                        </div>
-                                                        <div class="col-md-7 col-xs-8 col-sm-8">
-                                                            <h4>IT SENDFORTH</h4>
-                                                            <p>FRIDAY, 20 APRIL <br/> It Sendforth</p>
-                                                            
-                                                        </div>
-
-                                                        <div class="col-md-1 col-xs-2 col-sm-2">
-                                                        </div>
-                                                </center>
-                                            </div>
+                                    <li class="col-md-3 col-sm-11 col-xs-11">
+                                        <img alt="Image" src="general/img/construction2.jpg" />
+                                    </li>
+                                    <li class="col-md-3 col-sm-11 col-xs-11">
+                                        <img alt="Image" src="general/img/construction2.jpg" />
+                                    </li>
+                                    <li class="col-md-3 col-sm-11 col-xs-11">
+                                        <img alt="Image" src="general/img/construction2.jpg" />
+                                    </li>
+                                    <li class="col-md-3 col-sm-11 col-xs-11">
+                                        <img alt="Image" src="general/img/construction2.jpg" />
                                     </li>
                                 </ul>
                             </div>
@@ -381,14 +376,10 @@
                     <div class="row">
                      
                        <div class="col-sm-4 col-md-4 col-xs-4">
-                            
-                        </div>
-
-                        <div class="col-sm-6 col-md-4 col-xs-6">
                             <div class="modal-instance block">
                                 <a class="btn modal-trigger" href="#" style="background-color: blue;">
-                                    <span class="btn__text" style="color: white; font-weight:bold;">
-                                        FRIDAY BIBLE STUDY LESSON
+                                    <span class="btn__text" style="color: white;">
+                                        WEDNESDAY SERVICE
                                     </span>
                                 </a>
                                 <div class="modal-container">
@@ -419,7 +410,71 @@
                         </div>
 
                         <div class="col-sm-4 col-md-4 col-xs-4">
-                            
+                            <div class="modal-instance block">
+                                <a class="btn modal-trigger" href="#" style="background-color: blue;">
+                                    <span class="btn__text" style="color: white;">
+                                        FRIDAY BIBLE STUDY
+                                    </span>
+                                </a>
+                                <div class="modal-container">
+                                    <div class="modal-content">
+                                        <section class="unpad ">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
+                                                        <div class="feature feature-1">
+                                                            <div class="feature__body boxed boxed--lg boxed--border text-center">
+                                                                <div class="modal-close modal-close-cross"></div>
+                                                               
+                                                                
+                                                               <img alt="Image" src="general/img/construction2.jpg" />
+                                                            </div>
+                                                        </div>
+                                                        <!--end feature-->
+                                                    </div>
+                                                </div>
+                                                <!--end of row-->
+                                            </div>
+                                            <!--end of container-->
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end of modal instance-->
+                        </div>
+
+                        <div class="col-sm-4 col-md-4 col-xs-4">
+                            <div class="modal-instance block">
+                                <a class="btn modal-trigger" href="#" style="background-color: blue;">
+                                    <span class="btn__text" style="color: white;">
+                                        SUNDAY SERVICE
+                                    </span>
+                                </a>
+                                <div class="modal-container">
+                                    <div class="modal-content">
+                                        <section class="unpad ">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
+                                                        <div class="feature feature-1">
+                                                            <div class="feature__body boxed boxed--lg boxed--border text-center">
+                                                                <div class="modal-close modal-close-cross"></div>
+                                                               
+                                                                
+                                                               <img alt="Image" src="general/img/construction2.jpg" />
+                                                            </div>
+                                                        </div>
+                                                        <!--end feature-->
+                                                    </div>
+                                                </div>
+                                                <!--end of row-->
+                                            </div>
+                                            <!--end of container-->
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end of modal instance-->
                         </div>
                         
                     </div>
@@ -429,12 +484,12 @@
                 <br/>
 
           
-           <section class="bar bar-1 bar--sm" style="margin-top: 15px;">
+            <section class="bar bar-1 bar--sm" style="margin-top: 15px;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="bar__module">
-                                <center><h3 class="containerheader">Our Weekly Program</h3></center>
+                                <center><h3>Who We Are</h3></center>
                             </div>
                         </div>
                     </div>
@@ -444,90 +499,47 @@
             </section>
 
             <section>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-3 col-xs-12">
-                            <div class="feature">
-                                <img alt="Image" src="general/img/websitebannersunday.jpg" class="border--round" />
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-3 col-xs-12">
-                            <div class="feature">
-                                <img alt="Image" src="general/img/websitebannertuesday.jpg" class="border--round" />
-                            </div>
-                        </div>
-                       <div class="col-sm-12 col-md-3 col-xs-12">
-                            <div class="feature">
-                                <img alt="Image" src="general/img/websitebannerwednesday.jpg" class="border--round" />
-                            </div>
-                        </div>
-
-                        <div class="col-sm-12 col-md-3 col-xs-12">
-                            <div class="feature">
-                                <img alt="Image" src="general/img/websitebannerfriday.jpg" class="border--round" />
-                            </div>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>
-            <section class="bar bar-1 bar--sm" style="margin-top: -40px;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="bar__module">
-                                <center><h3 class="containerheader">Who We Are</h3></center>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>
-
-            <section>
-                <div class="container-fluid">
-                    <div class="row">
                         <div class="col-sm-12 col-md-3 col-xs-12">
                             <div class="feature">
-                                <img alt="Image" src="general/img/story.jpg" class="border--round" />
-                                    <center><h3 class="header">Our Story</h3></center>
+                                <img alt="Image" src="general/img/image4.jpg" class="border--round" />
+                                    <center><h4>Our Story</h4></center>
                                 <p>
                                     We need Content For All this&mdash; minimal effort, maximum impact.
                                 </p>
-                                   <center> <a href="webpage.html">Read More.....</a> </center>
+                                    <a href="webpage.html">Read More.....</a>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-3 col-xs-12">
                             <div class="feature">
-                                <img alt="Image" src="general/img/doctrine.jpg" class="border--round" />
-                                    <center><h3 class="header">Our Doctrine</h3></center>
+                                <img alt="Image" src="general/img/image4.jpg" class="border--round" />
+                                    <center><h4>Our Doctrine</h4></center>
                                 <p>
                                     Deliver results to your clients faster than ever with rapid page building.
                                 </p>
-                                    <center><a href="webpage.html">Read More.....</a> </center>
+                                    <a href="webpage.html">Read More.....</a>
                             </div>
                         </div>
                        <div class="col-sm-12 col-md-3 col-xs-12">
                             <div class="feature">
-                                <img alt="Image" src="general/img/belief.jpg" class="border--round" />
-                                    <center><h3 class="header">Our Belief</h3></center>
+                                <img alt="Image" src="general/img/image4.jpg" class="border--round" />
+                                    <center><h4>Our Belief</h4></center>
                                 <p>
                                     We need Content For All this From You Bro &mdash; minimal effort, maximum impact.
                                 </p>
-                                    <center><a href="webpage.html">Read More.....</a> </center>
+                                    <a href="webpage.html">Read More.....</a>
                             </div>
                         </div>
 
                         <div class="col-sm-12 col-md-3 col-xs-12">
                             <div class="feature">
-                                <img alt="Image" src="general/img/ministries.jpg" class="border--round" />
-                                    <center><h3 class="header">Our Ministries</h3></center>
+                                <img alt="Image" src="general/img/image4.jpg" class="border--round" />
+                                    <center><h4>Our Ministries</h4></center>
                                 <p>
                                     Deliver results to your clients faster than ever with rapid page building.
                                 </p>
-                                    <center><a href="webpage.html">Read More.....</a> </center>
+                                    <a href="webpage.html">Read More.....</a>
                             </div>
                         </div>
                     </div>
@@ -537,7 +549,9 @@
             </section>
 
 
-            
+              
+
+
 
        <footer class="footer-6 unpad--bottom  bg--dark" style="margin-top: -70px;">
                 <div class="container-fluid">
@@ -627,3 +641,108 @@
         <script src="general/js/scripts.js"></script>
     </body>
 </html>
+
+
+
+
+
+
+ @extends('layouts.app')
+    @section('content') <br/>
+
+        <div class="container" style="margin-top:-310px;">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 col-md-3">
+                            
+                </div>
+
+                 <div class="col-sm-12 col-xs-12 col-md-6">
+          
+                        <article class="feature feature-1">                       
+                                               
+                                                
+                                             <form > 
+                                                 <center> <img src="{{asset('externalFolder')}}/img/coven3.png" style="width:40px; margin-top:0px;"></center><br/>
+                            <center><input type="text" class="form-control" id="trainingtableDataText" name="search" placeholder="search (year-month-day)" style="width:232px;" /> <br/>
+                                                <div class="col-sm-1">
+                                                               
+                                                            </div>
+                                                             <div class="col-sm-5">
+                                                                <div class="input-checkbox" style="">
+                                                                    <input id="check-test" type="checkbox" name="agreei" />
+                                                                    <label for="check-test"></label>
+                                                                </div>
+                                                                <span id="trainingtableDataText">Check Status</span>
+                                                             </div>
+
+                                                              <div class="col-sm-5">
+                                                                <div class="input-checkbox" style="">
+                                                                    <input id="check-test1" type="checkbox" name="agreei" />
+                                                                    <label for="check-test1"></label>
+                                                                </div>
+                                                                <span id="trainingtableDataText">Check Status</span>
+                                                             </div>
+
+                                                              <div class="col-sm-1">
+                                                               
+                                                            </div>
+                                                            
+                                                           
+                                                            
+                                            </form>
+                                        </div>
+                        </article>
+                        
+                                    
+                                        
+                </div>
+
+                 <div class="col-sm-12 col-xs-12 col-md-3">
+                          
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="position:absolute; margin-top:-100px;">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 col-md-12">
+                            <table class="table table-bordered" id="tablebackground"> 
+                                <thead> 
+                                    <tr> 
+                                        <th>Id</th>
+                                         <th>Name</th> 
+                                         <th>Email</th> 
+                                         <th>Phone_No</th> 
+                                         <th>Address</th> 
+                                         <th>TrainingType</th>
+                                         
+                                         <th>Status</th>
+                                         <th>CheckIn Time</th>
+                                         <th>Checkout Time</th>
+                                    </tr>
+                                        @foreach($trainingtables as $row)
+                                        <tr id="tablecolor">
+                                            <td>{{ $row->id }}</td>
+                                            <td>{{ $row->name }}</td>
+                                            <td>{{ $row->email }}</td>
+                                            <td>{{ $row->phoneNo }}</td>
+                                            <td>{{ $row->address }}</td>
+                                            <td>{{ $row->trainingType }}</td>
+                                            <td>{{ $row->Status }}</td>
+                                            <td>{{ $row->created_at }}</td>
+                                            
+                                            <td>{{ $row->Checkout_time }}</td>
+                                        </tr>
+                                        @endforeach
+                                </thead> 
+                                
+                                <tbody> 
+                                   
+                                
+                                </tbody> 
+                            </table>
+                </div>
+            </div>
+        </div>
+
+     @endsection

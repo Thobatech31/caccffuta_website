@@ -20,6 +20,7 @@
                 width: 550px;
                 height:auto;
             }
+            
         </style>
     </head>
     <body class=" ">
@@ -68,11 +69,7 @@
                                         <a href="aboutpage.php"><span>About Us</span></a>
                                     </li>
 
-                                    
-
-                                    <li class="dropdown">
-                                        <span class="dropdown__trigger">Blog</span>
-                                    </li>
+                            
 
                                     <li class="dropdown">
                                         <span class="dropdown__trigger">Inspire Me</span>
@@ -131,36 +128,35 @@
                                         <span class="dropdown__trigger">Donations</span>
                                     </li>
 
-                                     <li>
+                                       <li>
                                         <div class="modal-instance">
-                                            <a href="#" class="modal-trigger" style="color:blue; font-size: 13px; font-weight: bold;">FAMILY SONG</a>
+                                            <a href="#" class="modal-trigger" style="color:darkblue; font-size: 13px; font-weight: bold;">FAMILY SONG</a>
                                             <div class="modal-container">
                                                 <div class="modal-content">
                                                     <section class="unpad ">
                                                         <div class="container">
                                                             <div class="row">
-                                                                <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
+                                                                <div class="col-sm-12 col-md-6 col-xs-12 col-md-offset-3 col-sm-offset-3 col-xs-12">
                                                                     <div class="boxed boxed--lg bg--white text-center feature">
                                                                         <div class="modal-close modal-close-cross"></div>
                                                                         
                                                                             <center>
                       
                                                                           <h3 style="color: red; font-weight: bold;">CACCFFUTA FAMILY SONG</h3>
-                                                                                <p>Caccf, a place of building giants</p>
-                                                                                <p>Fostering love among ourselves to keep us as one </p>
-                                                                                <p>Caccf a place of building giants</p>
-                                                                                <p>Perfect family, righteous family</p>
-                                                                                <p>Made in this purpose As one fold and one shepherd</p>
+                                                                                <p>Caccf, a place of building giants<br>
+                                                                                Fostering love among ourselves to keep us as one <br>
+                                                                                Caccf a place of building giants<br>
+                                                                                Perfect family, righteous family<br>
+                                                                                Made in this purpose As one fold and one shepherd</p>
                                                                                 
                                                                                 <hr/> 
 
                                                                           <h3 style="color: red; font-weight: bold;">VERSE</h3> 
-
-                                                                                 <p>Eternal father bless us all</p>
-                                                                                <p>Guide us through and teach us your word</p>
-                                                                                <p>make us your people a honoured vessel</p>
-                                                                                <p>help us oh Lord to be like you in all we going through </p>
-                                                                                <p>Jesus our Lord, you are the one we love.</p>
+                                                                                 <p>Eternal father bless us all<br>
+                                                                                Guide us through and teach us your word<br>
+                                                                                make us your people a honoured vessel<br>
+                                                                                help us oh Lord to be like you in all we going through <br>
+                                                                                Jesus our Lord, you are the one we love.</p>
                                                                             
                                                                         
                                                                          </center>
