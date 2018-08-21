@@ -17,15 +17,28 @@
                         </div>
 
                     
-                        <div class="col-sm-6 col-md-3">
+                 <div class="col-sm-6 col-md-2">
                             <center>
                             <h6 class="type--uppercase">Social Media Pages</h6>
-                                <p><a href="https://www.facebook.com/caccffuta">Facebook Page</a></p>
+                                <a href="https://www.facebook.com/caccffuta">
+                                            <i class="socicon socicon-facebook icon icon--xs"> </i>
+                                            Facebook
+                                        </a>
+                                            <br/>
+                                         <a href="https://www.twitter.com/caccffuta">
+                                            <i class="socicon socicon-twitter icon icon--xs"></i>
+                                            Twitter
+                                        </a>
+                                            <br/>
+                                         <a href="https://www.instagram.com/caccffuta">
+                                            <i class="socicon socicon-instagram icon icon--xs"></i>
+                                            Instagram
+                                        </a>
                             <div class="instafeed instafeed--gapless" data-user-name="mediumrarethemes" data-amount="6" data-grid="3"></div>
                             <licenter>
                         </div>
                         <div class="col-sm-6 col-md-2">
-                           <center><img alt="Image" src="general/img/fellowimage2.jpg" class="border--round"/ style="width: auto; height: 150px;"></center> 
+                          <center><img alt="Image" src="general/img/fellowimage2.jpg" class="border--round"/ style="width: auto; height: 150px;"></center> 
                         </div>
                     </div>
                     <!--end of row-->
@@ -40,11 +53,7 @@
                             </div>
                             <div class="col-sm-6 text-right text-center-xs">
                                 <ul class="social-list list-inline">
-                                    <li>
-                                        <a href="https://www.">
-                                            <i class="socicon socicon-google icon icon--xs"></i>
-                                        </a>
-                                    </li>
+                                    
                                     <li>
                                         <a href="https://www.">
                                             <i class="socicon socicon-twitter icon icon--xs"></i>
