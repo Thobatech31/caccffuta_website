@@ -140,10 +140,11 @@
                                                                     <div class="boxed boxed--lg bg--white text-center feature">
                                                                         <div class="modal-close modal-close-cross"></div>
                                                                         
+                                                                             
                                                                             <center>
                       
-                                                                          <h3 style="color: red; font-weight: bold;">CACCFFUTA FAMILY SONG</h3>
-                                                                                <p>Caccf, a place of building giants<br>
+                                                                          <h3 style="color: purple; font-weight: bold;">CACCFFUTA FAMILY SONG</h3>
+                                                                                <p style="color:black; font-size: 16px;">Caccf, a place of building giants<br>
                                                                                 Fostering love among ourselves to keep us as one <br>
                                                                                 Caccf a place of building giants<br>
                                                                                 Perfect family, righteous family<br>
@@ -151,8 +152,8 @@
                                                                                 
                                                                                 <hr/> 
 
-                                                                          <h3 style="color: red; font-weight: bold;">VERSE</h3> 
-                                                                                 <p>Eternal father bless us all<br>
+                                                                          <h3 style="color: purple; font-weight: bold;">VERSE</h3> 
+                                                                                 <p style="color:black; font-size: 16px;">Eternal father bless us all<br>
                                                                                 Guide us through and teach us your word<br>
                                                                                 make us your people a honoured vessel<br>
                                                                                 help us oh Lord to be like you in all we going through <br>
@@ -160,7 +161,6 @@
                                                                             
                                                                         
                                                                          </center>
-                                                                       
                                                                         </div>
                                                                     </div>
                                                                 </div>
